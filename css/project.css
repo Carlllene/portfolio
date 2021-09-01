@@ -1,0 +1,80 @@
+:root {
+  --best-padding:0.5em 0;
+  --header-height:3em;
+  --footer-height:4em;
+  --color-orange:#ffc4b0;
+  --color-dark-orange:#f58a64;
+  --color-black:#0a0a0a;
+  --color-blue:#0734cd;
+  --color-gray:#F9F9F9;
+  --color-splitwise:#3ad19e;
+  --form-iput-padding: 30px 0 5px 0;
+  --button-radius: 100px;
+}
+
+/*Splitwise*/
+
+.tabgroup .tab-spl.tab {
+	color: var(--color-black);
+	border-bottom: 2px solid var(--color-splitwise);
+}
+
+.tabgroup .tab-spl.active {
+    border-bottom: 2px solid var(--color-splitwise);
+    background-color: var(--color-splitwise);
+}
+
+.tabgroup .tab-spl:hover {
+    /*border-bottom: 2px solid var(--color-black);*/
+    background-color: var(--color-gray);
+    color: var(--color-splitwise);
+}
+
+.project-section-spl {
+    background-color: #E7F2ED;
+}
+#spl h5 {
+	color: var(--color-splitwise);
+}
+#spl .vl {
+	border-top: 6px solid var(--color-splitwise);
+    width: 20px;
+    margin-bottom: 15px;
+}
+#spl hr {
+  border-top: 1px solid var(--color-splitwise);
+}
+
+/*Anticlock*/
+
+.tabgroup .tab-ant.tab {
+	color: var(--color-black);
+	border-bottom: 2px solid var(--color-dark-orange);
+}
+
+.tabgroup .tab-ant.active {
+    border-bottom: 2px solid var(--color-dark-orange);
+    background-color: var(--color-dark-orange);
+}
+
+.tabgroup .tab-ant:hover {
+    /*border-bottom: 2px solid var(--color-black);*/
+    background-color: var(--color-gray);
+    color: var(--color-dark-orange);
+}
+
+.project-section-ant {
+    background-color: var(--color-orange);
+}
+#ant h5 {
+	color: var(--color-dark-orange);
+}
+#ant .vl {
+	border-top: 6px solid var(--color-dark-orange);
+    width: 20px;
+    margin-bottom: 15px;
+}
+#ant hr {
+  border-top: 1px solid var(--color-dark-orange);
+}
+
