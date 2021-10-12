@@ -174,9 +174,6 @@ img {
 .shadow img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.row.align-items-center{
-/*margin-bottom: 2em;*/
-}
 
 /*.img-footer{
 	width: 50%;
@@ -1738,4 +1735,11 @@ font-style: normal;
         transform: scale(1, 0);
     }
 }
-
+.column-reverse{
+  display: flex;
+}
+@media only screen and (max-width: 768px) {
+  .column-reverse{
+    flex-direction: column-reverse;
+  }
+}
