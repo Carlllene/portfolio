@@ -1045,9 +1045,8 @@ button.btn-main:hover {
     background-color: #e66c42;
     color: white;
 }
-button.btn-main:active {
-    background-color: #e66c42;
-    color: white;
+button:focus {
+  display: none !!important;
 }
 button.btn-project {
     height: 100%;
